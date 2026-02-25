@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // 1. fibonacci serics
+
+        var a=0,b=1;
+        for(var i=1;i<=6;i++){
+            console.log(a);
+            var c=a+b;
+            a=b;
+            b=c;
+        }
+
+        // 2.prime Number
+
+        // var num=7;
+        // var i=2;
+        // var flag=1;
+
+        // while(i<num){
+        //     if(num%i==0){
+        //         flag=0;
+        //         break;
+        //     }
+        //     i++
+        // }
+        // if(flag==1){
+        //     console.log("7 is a prime");
+        // }else{
+        //     console.log("7 is a not prime");
+        // }
+
+        // 3.prime factor
+
+        // var num=12;
+        // for (var i=2;i<=num;i++){
+        //     while(num%i==0){
+        //         console.log(i);
+        //         num=num/i;
+        //     }
+        // }
+
+        // 4.sum and reverse
+
+        // var num = 123;
+        // var sum = 0;
+
+        // while (num > 0) {
+        //     sum = sum + (num % 10);   
+        //     num = Math.floor(num / 10);
+        // }
+        // console.log(sum);
+
+        // 5.armstrong 
+
+        // var num = parseInt(prompt("Enter a number:"));
+
+        // var real = num;
+        // var sum = 0;
+        // var rem;
+
+        // while (num > 0) {
+        //     rem = num % 10;
+        //     sum = sum + rem * rem * rem;
+        //     num = Math.floor(num / 10);
+        // }
+
+        // if (sum == real) {
+        //     console.log(real + " is an Armstrong number");
+        // } else {
+        //     console.log(real + " is not an Armstrong number");
+        // }
+
+        // 6.palindrome Number
+
+        // var num = Number(prompt("Enter a value:"));
+        // var p = num;   
+        // var rev = 0;
+        // var rem;
+
+        // while (num > 0) {
+        //     rem = num % 10;
+        //     rev = rev * 10 + rem;
+        //     num = Math.floor(num / 10);
+        // }
+
+        // if (p == rev) {
+        //     console.log("It is a palindrome");
+        // } else {
+        //     console.log("It is not a palindrome");
+        // }
+
+
+    </script>
+</body>
+
+</html>
